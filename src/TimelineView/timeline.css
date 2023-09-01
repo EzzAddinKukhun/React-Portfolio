@@ -1,0 +1,38 @@
+.exp {
+    height: 250px;
+    border-radius: 4px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 1px 0px 12px #bababa; 
+    margin-bottom: 25px;
+    transition: 1s ease-in;
+
+}
+
+.exp:hover{
+    transform: translateY(-10px)
+    ;
+    transition: 0.5s ease-in-out
+}
+
+.exp-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+
+
+}
+
+.exp-desc{
+    text-align: justify;
+    color: gray;
+
+}
+
+.exp-btn{
+    position: absolute;
+    width: 10%;
+}

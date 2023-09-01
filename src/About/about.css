@@ -1,0 +1,44 @@
+.about-left-container{
+    width: 25%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+}
+
+.about-right-container{
+    width: 75%;
+    height: 200px;
+    padding: 20px;
+}
+
+.about-me{
+    text-align: justify;
+}
+
+.w-65{
+    width: 65%;
+    margin: auto;
+}
+
+
+#download-cv-btn{
+    width: 17%;
+    background-color: #130F49;
+
+}
+
+.exp-card{
+    height: 200px;
+    text-align: center;
+    background-color: #cdccde;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 0px 12px #bababa
+}

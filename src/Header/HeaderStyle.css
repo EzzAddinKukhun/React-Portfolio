@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); 
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* #A5A6FF; */
+.typing-container {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.typing{
+    width: 70%;
+    margin: auto;
+    font-size: 40px;
+    color: #130F49;;
+}
+
+
+.text {
+    font-size: 40px;
+}
+
+
+.photo-container{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-cover {
+    width: 78%;
+    height: 60%;
+    border-radius: 50%;
+    background: rgb(47,155,157);
+background: linear-gradient(180deg, rgba(47,155,157,0.4290966386554622) 24%, rgba(19,15,73,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.circle-cover img {
+    display: block;
+    width: 80%;
+    height: 100%;
+
+}
+
+.basic-header-info{
+    margin-top: 30px;
+}
+
+.w-35{
+    width: 35%;
+}
+
+#got-project-btn{
+    background-color: #130F49;
+}
+
+#lets-talk-btn{
+    color: #130F49;
+    border: #130F49 1px solid;
+}
+
+#stack-btns-container{
+    margin-top: 30px;
+}
+
+.addresses-container{
+    margin-top: 50px;
+    font-size: 15px;
+    border-left: 4px solid #FF972D;
+    padding-left: 10px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
