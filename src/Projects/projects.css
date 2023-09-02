@@ -1,0 +1,17 @@
+.project-card{
+    height: 420px; 
+    position: relative;
+}
+
+.links a{
+    display: inline-block;
+    padding: 5px;
+}
+
+.card-actions{
+    position: absolute;
+    width: 100%;
+    bottom: 1%;
+}
+
+

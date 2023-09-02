@@ -2,9 +2,23 @@ import React from 'react'
 import Project from './Project'
 import { projectsInformation } from '../fixed'
 import Fade from 'react-reveal/Fade';
+import CustomizedDialogs from '../Dialog/CustomizedDialogs';
 
 export default function Projects() {
+    const [open, setOpen] = React.useState(false);
+    const [projectInformation, setProjectInformation] = React.useState({}); 
+
+    const handleClickOpen = (element) => {
+      setOpen(true);
+      setProjectInformation(element);
+    };
+
+    const handleClose = () => {
+      setOpen(false);
+    };
+  
     return (
+        <>
         <div>
             <h2 className='text-center w-100 mb-4 mt-5'><b>My Projects</b></h2>
             <div className='container'>
@@ -14,7 +28,7 @@ export default function Projects() {
                             return (
                                 <Fade delay={500 * key}>
                                     <div className="col-12 col-sm-6 col-md-6 col-lg-4">
-                                        <Project name={element.projectName} description={element.description} thumbnail={element.thumbnail} />
+                                        <Project element={element} openDialog={()=>handleClickOpen(element)} />
                                     </div>
                                 </Fade>
                             );
@@ -23,5 +37,7 @@ export default function Projects() {
                 </div>
             </div>
         </div>
+        <CustomizedDialogs open={open} closeDialog={handleClose} projectInformation = {projectInformation}/>
+        </>
     )
 }
