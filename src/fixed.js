@@ -103,7 +103,7 @@ export const projectsInformation = [
         endDate : "Oct 2022", 
         youtubeLink: "https://www.youtube.com/watch?v=fSXRrcLIGnE", 
         githubLink: "https://github.com/EzzAddinKukhun/Maktabati", 
-        thumbnail: `${path}/alumni.jpg`, 
+        thumbnail: `${path}/maktabati.jpg`, 
         frontendTech: ["HTML", "CSS", "JavaScript", "Bootstrap", "React"], 
         backendTech: [], 
         description: "It is a simple website which displays the books through the Google API book. The user also can search about any book through the API, and he can see some important information about each book."

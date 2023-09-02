@@ -5,6 +5,7 @@ import Header from './Header/Header';
 import About from './About/About';
 import Experience from './Experience/Experience';
 import Educations from './Experience/Educations';
+import Projects from './Projects/Projects';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Educations/>
       <Experience/>
+      <Projects/>
     </>
   );
 }
