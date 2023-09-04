@@ -6,6 +6,8 @@ import About from './About/About';
 import Experience from './Experience/Experience';
 import Educations from './Experience/Educations';
 import Projects from './Projects/Projects';
+import Contact from './Contact Me/Contact';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Educations/>
       <Experience/>
       <Projects/>
+      <Contact/>
+      <Footer/>
     </>
   );
 }

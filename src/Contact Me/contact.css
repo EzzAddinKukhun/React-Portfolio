@@ -1,0 +1,17 @@
+.contact-left{
+   padding-left: 100px;
+   padding-right: 100px;
+   height: 450px;
+   background-color: rgb(221, 221, 231);
+}
+
+.contact-right{
+    height: 450px;
+    background-color: rgb(221, 221, 231);
+    padding: 50px;
+}
+
+#submit-email{
+    background-color: #130F49;;
+}
+

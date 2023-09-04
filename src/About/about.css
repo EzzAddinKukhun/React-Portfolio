@@ -1,5 +1,5 @@
 .about-left-container{
-    width: 25%;
+    /* width: 25%; */
     height: 200px;
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
 }
 
 .about-right-container{
-    width: 75%;
+    /* width: 75%; */
     height: 200px;
     padding: 20px;
 }
