@@ -1,12 +1,12 @@
 .contact-left{
    padding-left: 100px;
    padding-right: 100px;
-   height: 450px;
+   height: 500px;
    background-color: rgb(221, 221, 231);
 }
 
 .contact-right{
-    height: 450px;
+    height: 500px;
     background-color: rgb(221, 221, 231);
     padding: 50px;
 }

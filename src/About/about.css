@@ -1,5 +1,4 @@
 .about-left-container{
-    /* width: 25%; */
     height: 200px;
     display: flex;
     justify-content: center;
@@ -9,8 +8,14 @@
     
 }
 
+h2{
+    padding-top: 50px;
+}
+.about{
+    height: 240px;
+}
+
 .about-right-container{
-    /* width: 75%; */
     height: 200px;
     padding: 20px;
 }
@@ -41,4 +46,34 @@
     align-items: center;
     justify-content: center;
     box-shadow: 1px 0px 12px #bababa
+}
+
+
+@media (max-width: 576px) {
+    .about{
+        height: 600px;
+    }
+    .about-right-container{
+        height: 370px;
+    }
+    #download-cv-btn{
+        width: 40%;
+        margin: auto;
+    }
+   
+    
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .about{
+        height: 600px;
+    }
+    .about-right-container{
+        height: 370px;
+    }
+    #download-cv-btn{
+        width: 40%;
+        margin: auto;
+    }
+   
 }

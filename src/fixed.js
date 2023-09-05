@@ -15,10 +15,12 @@ const path = `http://localhost:3000`;
 
 export const expTimeline = [{
     startDate: "Jun 2023",
-    endDate: "Present",
+    endDate: "now",
     expName: "Design Verification Internship",
     companyName: "An-Najah Company For Consultancy & Technical Studies",
-    Description: "We learned how to write RTL designs, and testing them using simple testbench. We studied about System Verilog, Scripting by Python, and UVM.",
+    Description: "We started our training by learning how to write RTL designs, and testing them using the simple testbench. Then we moved to learn the"
+    +" System Verilog, and how we can use it to test our designs. After all of this, we studying about scripting by python, and how it can"
+    +" help us to write RTL designs, then convert these designs into Verilog, or VHDL. Then, we learned how to use VCS tool for testing and coverage our designs, and how to extract the netlist file using this tool. Finally, We have been starting by UVM framwork.",
     urlFile: null
 },
 {
@@ -54,20 +56,22 @@ export const downloadMyCV = (url) => {
 
 
 export const eduTimeline = [{
-    startDate: "Jun 2023",
-    endDate: "Present",
-    expName: "Design Verification Internship",
-    companyName: "An-Najah Company For Consultancy & Technical Studies",
-    Description: "We learned how to write RTL designs, and testing them using simple testbench. We studied about System Verilog, Scripting by Python, and UVM.",
-    urlFile: null
+    startDate: "Aug 2018",
+    endDate: "Jun 2023",
+    degree: "B.Sc degree in Computer Engineering",
+    grade: "3.29/4",
+    learningCenter: "An-Najah National University",
+    city: "Nablus", 
+    thumbnail: `${path}/nnu.jpg`, 
 },
 {
-    startDate: "Oct 2022",
-    endDate: "Mar 2023",
-    expName: "Frontend Development Internship",
-    companyName: "Foothill Technology Solutions, LLC.",
-    Description: "In this internship, we studied about HTML, CSS, JavaScript, TypeScript, DOM, React, Redux, React Routing and React testing..",
-    urlFile: `${path}/intern.png`
+    startDate: "Aug 2017",
+    endDate: "Jun 2018",
+    degree: "High School Certificate - Scientific Stream",
+    grade: "93.6%",
+    learningCenter: "King Talal Secondary School",
+    city: "Nablus", 
+    thumbnail: `${path}/school.jpg`, 
 
 }
 

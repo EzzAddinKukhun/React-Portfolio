@@ -16,7 +16,7 @@ import './timeline.css'
 export default function TimelineView({ type, timelineData }) {
     return (
         <>
-            <h2 className='text-center w-100 mb-4 mt-5'><b>{type}</b></h2>
+            <h2 className='text-center w-100 mb-4 '><b>{type}</b></h2>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 col-12 col-sm-12">

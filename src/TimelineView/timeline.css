@@ -36,3 +36,29 @@
     position: absolute;
     width: 10%;
 }
+
+@media (max-width: 576px) {
+    .exp{
+        height: 600px;
+    }
+
+    .exp > h2{
+        font-size: 10px;
+    }
+   
+    
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    .about{
+        height: 600px;
+    }
+    .about-right-container{
+        height: 370px;
+    }
+    #download-cv-btn{
+        width: 40%;
+        margin: auto;
+    }
+   
+}

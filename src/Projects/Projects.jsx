@@ -20,8 +20,8 @@ export default function Projects() {
     return (
         <>
         <div>
-            <h2 className='text-center w-100 mb-4 mt-5'><b>My Projects</b></h2>
-            <div className='container'>
+            <h2 className='title text-center w-100 mb-4'><b>My Projects</b></h2>
+            <div id="projs" className='container'>
                 <div className="row g-5">
                     {
                         projectsInformation.map((element, key) => {

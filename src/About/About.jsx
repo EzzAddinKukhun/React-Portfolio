@@ -7,8 +7,8 @@ import Numbers from './Numbers';
 export default function About() {
   return (
     <>
-      <h2 className='text-center w-100'><b>About Me</b></h2>
-      <div className='container'>
+      <h2 className=' text-center w-100 '><b>About Me</b></h2>
+      <div id="about" className='about container'>
         <div className="row">
           <div className="col-12 col-sm-12 col-md-6 col-lg-4">
             <AboutLeft />

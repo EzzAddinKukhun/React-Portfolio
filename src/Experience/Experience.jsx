@@ -5,7 +5,7 @@ import TimelineView from '../TimelineView/TimelineView';
 
 export default function Experience() {
     return (
-        <TimelineView type={"Experiences"} timelineData={expTimeline} />
+        <TimelineView id="exp" type={"Experiences"} timelineData={expTimeline} />
     )
 }
 
