@@ -5,23 +5,28 @@ const pages = ['Home', 'About', 'Resume', 'Projects', 'Contact Us'];
 
 export default function ResponsiveAppBar() {
 
-  const scrollThreshold = 900; 
+  const scrollThreshold = 850; 
   
 
   window.addEventListener("scroll", ()=>{
     if (window.scrollY >= scrollThreshold){
+
       document.getElementById("home").style.backgroundColor = "#130F49"; 
+      document.getElementById("home").style.transition = "1s ease"
+
+
     }
     else{
       document.getElementById("home").style.backgroundColor = "transparent";
+      document.getElementById("home").style.transition = "1s ease"
+
     }
   })
-
 
   return (
       <nav id="home" class="navbar navbar-expand-lg position-fixed w-100 z-1 text-light">
         <div class="container-fluid">
-          <a class="navbar-brand text-light" href="#">Ezz Addin H. Kukhun</a>
+          <a class="navbar-brand text-light" href="#"><b>Ezz Addin H. Kukhun</b></a>
           <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

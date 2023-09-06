@@ -1,17 +1,33 @@
+#contact {
+    height: 500px;
+}
+
 .contact-left{
    padding-left: 100px;
    padding-right: 100px;
-   height: 500px;
+   height: 100%;
    background-color: rgb(221, 221, 231);
 }
 
 .contact-right{
-    height: 500px;
+    height: 100%;
     background-color: rgb(221, 221, 231);
     padding: 50px;
 }
 
 #submit-email{
     background-color: #130F49;;
+}
+
+@media (max-width: 576px){
+    #contact {
+        height: 950px
+    }
+    
+}
+@media (min-width: 577x) and  (max-width: 767px) {
+    #contact {
+        height: 950px
+    }
 }
 

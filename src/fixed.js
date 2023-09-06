@@ -28,7 +28,9 @@ export const expTimeline = [{
     endDate: "Mar 2023",
     expName: "Frontend Development Internship",
     companyName: "Foothill Technology Solutions, LLC.",
-    Description: "In this internship, we studied about HTML, CSS, JavaScript, TypeScript, DOM, React, Redux, React Routing and React testing..",
+    Description: "ًWe started our internship by studying about git & github, and learning how we can deploy our projects to it. Then we studied about HTML, CSS, and go deeply with JavaScript and DOM. "
+    +"Then we learned how to test our JS codes using Jest. Also, we studied about NodeJS runtime environment. Then, we moved to the React JS library, we studied important topics related to the state management, code reusability, and create web pages with good performance."
+    +"The internship contained many tasks and projects to test our understanding for these topics.  ",
     urlFile: `${path}/intern.png`
 
 }
